@@ -1,0 +1,133 @@
+.container
+{
+    padding: 10px;
+    
+}
+
+
+body
+{
+    background-image: url("blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+.h1
+{
+    text-align: center;
+    margin-top: 50px;
+    color: lawngreen;
+    
+}
+
+.appendtask > input[type="text"]
+{
+    width: 50%;
+    margin-left: 300px;
+    border-radius: 50px;
+    border:solid;
+    height: 30px;
+    margin-top: 50px;
+    background-color: bisque;
+   
+    
+}
+
+
+
+.incomplete,.complete
+{
+    margin: 5px 0;
+    padding: 20px;
+}
+
+
+h2
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+ol
+{
+    list-style: none;
+}
+
+ol li
+{
+    background-color: skyblue;
+    padding:20px;
+    font-size: 19px;
+    counter-increment: inc-counter;
+    
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+ol.complete li
+{
+    background-color: yellow;
+}
+
+
+ol li::before
+{
+    content: counter(inc-counter);
+    background-color: orange;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    
+
+
+
+}
+
+li button
+{
+    float:right;
+    font-size:25px;
+
+}
+
+.btn1
+{
+    background-color: lightgreen;
+    border-radius:5px;
+    margin-left: 5px;
+    
+}
+
+
+.btn2
+{
+   background-color: red;
+   border-radius: 5px;
+   
+}
+
+
+
+.btn1,.btn2:hover
+{
+    cursor: pointer;
+}
+
+.appendtask > button
+{
+    background-color:gold;
+    text-transform: uppercase;
+   margin-left: 20px;
+   height: 30px;  
+}
+
+.appendtask > button:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
